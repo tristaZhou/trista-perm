@@ -1,0 +1,29 @@
+{
+    "name": "trista/perm",
+    "description": "test permission",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "tristaZhou",
+            "email": "1375484809@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.5.0",
+        "illuminate/console": "~5.0",
+        "illuminate/support": "~5.0",
+        "illuminate/cache": "~5.0"
+    },
+	"autoload": {
+        "psr-4": {
+            "Trista\\Perm\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Trista\\Perm\\Tests\\": "tests/"
+        }
+    },
+}
